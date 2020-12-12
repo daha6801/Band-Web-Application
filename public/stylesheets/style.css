@@ -1,0 +1,65 @@
+ol {
+  background: #ff9999;
+  padding: 20px;
+  margin-left: 20px
+}
+
+ol li:nth-child(even) {
+  background: #ffe5e5;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+ol li:nth-child(odd) {
+  background: #e6e6ff;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+img {
+  border-radius: 2px;
+  display: block;
+  margin-left: 10px;
+  margin-right: 20px;
+  width: 10%;
+}
+
+p:nth-of-type(2n) {
+  color: red;
+}
+
+@font-face {
+  font-family: 'Architects Daughter';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Architects Daughter Regular'), local('ArchitectsDaughter-Regular'), url(https://fonts.gstatic.com/s/architectsdaughter/v11/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg4w.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Economica';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Economica'), local('Economica-Regular'), url(https://fonts.gstatic.com/s/economica/v8/Qw3fZQZaHCLgIWa29ZBbNsIB.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Special Elite';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Special Elite Regular'), local('SpecialElite-Regular'), url(https://fonts.gstatic.com/s/specialelite/v11/XLYgIZbkc4JPUL5CVArUVL0ntnAOSA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.navbar a {
+  font-family: 'Economica';
+}
+
+h1,h2 {
+    font-family: 'Architects Daughter';
+}
+
+footer {
+    font-family: 'Special Elite';
+}

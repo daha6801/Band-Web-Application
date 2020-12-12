@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+   <head>
+    <title>
+        <%= title %>
+    </title>
+    <%- include partials/header.ejs %>
+  </head>
+  
+  <body>
+   
+  <%- include('partials/nav'); %>
+
+<main role="main">
+
+<div class="jumbotron">
+    <div class="container">
+      <h1 class="display-3">Band members</h1>
+      <p>This page lists the band members for Dire Straits</p>
+    </div>
+  </div>
+  
+  <div class="songs">
+    <ul>
+      <li>PMark Knopfler: vocals, guitar  <img src="/images/bandpic.jpg" alt="Picture"> </li>
+      <li>Hal Lindes: guitar <img src="/images/bandpic.jpg" alt="Picture"> </li>
+      <li>Alan Clark: keyboards  <img src="/images/bandpic.jpg" alt="Picture"></li>
+      <li>John Illsley: bass <img src="/images/bandpic.jpg" alt="Picture"> </li>
+      <li>Pick Withers: drums <img src="/images/bandpic.jpg" alt="Picture"> </li>
+      <li>Ed Walsh: synth program <img src="/images/bandpic.jpg" alt="Picture"> </li>
+    </ul>
+ </div>
+</main>
+
+<%- include partials/footer.ejs %>
+</html>
